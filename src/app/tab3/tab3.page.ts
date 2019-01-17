@@ -6,23 +6,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page implements OnInit {
-  ngOnInit () {
-    alert ('from Tab3Page ngOnInit');
+  ngOnInit() {
+    alert('from Tab3Page ngOnInit');
   }
 
   ionViewWillEnter() {
-    alert ('from Tab3Page ionViewWillEnter');
+    alert('from Tab3Page ionViewWillEnter');
   }
 
   ionViewDidEnter() {
-    alert ('from Tab3Page ionViewDidEnter');
+    alert('from Tab3Page ionViewDidEnter');
   }
 
   ionViewWillLeave() {
-    alert ('from Tab3Page ionViewWillLeave');
+    alert('from Tab3Page ionViewWillLeave');
   }
 
   ionViewDidLeave() {
-    alert ('from Tab3Page ionViewDidLeave');
+    alert('from Tab3Page ionViewDidLeave');
   }
 }
